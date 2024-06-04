@@ -1,0 +1,109 @@
+.projectDisplay{
+	min-height: calc(100vh - 75px - 140px);
+	position: relative;
+}
+.projectPage{
+	min-height: calc(100vh - 75px - 140px);
+	background-color: #3e497a;
+	position: relative;
+	width: 100%;
+}
+.projectDisplay::before{
+	content: "";
+	background-image: url(../img/computer.jpg);
+	background-repeat: no-repeat;
+	opacity: 0.15;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.projectDisplay h1 {
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.projectCard{
+	width: 70%;
+    display: flex;
+    position: relative;
+    background: white;
+    margin: 80px auto 0;
+	border-radius: 10px;
+}
+
+.projectbg {
+    width: 400px;
+    margin: 0px 10px;
+    height: 270px;
+    float: left;
+    object-fit: cover;
+}
+.projectbg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.projectContent{
+	background-color: white;
+	border-radius: 10px;
+	width: 500px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.projectDescription{
+	padding: 25px 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #21325e;
+}
+
+.stack {
+    margin-top: 20px;
+    font-weight: bold;
+	font-size: 15px;
+}
+.projectLink {
+    text-align: center;
+}
+
+a.projectLinkUrl {
+    background: #21325e;
+    color: #e9d35b;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px){
+	.projectDisplay h1{
+		font-size: 50px;
+	}
+	.projectbg {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin: 0 0 20px;
+	}
+	.projectCard{
+		width: 100%;
+		border-radius: 0;
+		margin-top: 25px;
+	}
+}
