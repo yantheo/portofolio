@@ -23,7 +23,7 @@ const Projects = (props) => {
 			
 			<div className='projectList'>
 			<p className='projectsIntro'>
-			During my career as a Freelance Web Developer, I developed websites mainly under the Wordpress CMS but also under other versions. Here are some examples that I am authorized to present to you.
+			As a Freelance Web Developer, I developed websites mainly under the Wordpress CMS but also under other versions. Here are some examples that I am authorized to present to you.
 
 			</p>
 			{
