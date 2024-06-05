@@ -5,13 +5,13 @@ import ComputerIcon from '@mui/icons-material/Computer';
 export const skillsList = [
 	{
 		name: "Front-End",
-		tasks: "HTML, CSS, ReactJs, BootStrap, SASS, NPM",
+		tasks: "HTML, CSS, ReactJs, BootStrap",
 		icon: <ComputerIcon/>,
 		color: "#e50764"
 	},
 	{
 		name: "Back-End",
-		tasks: "Symfony, Codigneter, MySQL, Docker",
+		tasks: "Django, Symfony, MySQL, Docker",
 		icon: <StorageIcon/>,
 		color: "#fb4d08"
 	},
