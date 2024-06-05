@@ -8,8 +8,8 @@ const Projects = (props) => {
 		projects : null
 	});
 
-	//const hostname = "https://yanicktheodose.site/portfolio/";
-	const hostname = "http://localhost/portfolio/";
+	const hostname = "https://yanicktheodose.site/portfolio/";
+	//const hostname = "http://localhost/portfolio/";
 	useEffect(() => {
 		axios.get(`${hostname}api/projects`)
 		.then((response) =>{ setStateProject({projects:response.data}) })
