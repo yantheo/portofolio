@@ -19,9 +19,9 @@ const Homepage = (props) => (
             <div className="resume">
               <p>
                 A Web Developer with passion for building and creating Websites.
-                I do Front-end and Back-end development. Javascript, HTML, CSS &
-                PHP are the main languages that I use. Wordpress, Symfony and
-                React.js are also part of my development stack.
+                I do Front-end, Back-end development but also Web Scraping. Python, Javascript &
+                PHP are the main languages that I use. Wordpress, Django, Symfony and
+                ReactJS are also part of my development stack.
               </p>
               <div className="readMorelink">
                 <Link to="/projects">Read More...</Link>
