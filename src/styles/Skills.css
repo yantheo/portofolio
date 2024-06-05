@@ -1,6 +1,6 @@
 .skills{
 	min-height: calc(100vh - 75px - 140px);
-	background-color: #3e497a;
+	background-color: black;
 	position: relative;
 }
 .skills::before{
@@ -29,7 +29,6 @@
 	text-align: center;
 	margin: 0;
 	position: relative;
-	padding-top: 20px;
 }
 .skills .serviceIntro{
 	font-size: 20px;
@@ -38,12 +37,12 @@
 }
 
 .itemCard{
-	margin:20px;
+	margin: 20px;
 	border-radius: 15px;
 	overflow: hidden;
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-	height: 350px;
-	width: 300px;
+	height: 290px;
+	width: 200px;
 	cursor: pointer;
 	transition: all 400ms ease;
 }
@@ -71,7 +70,7 @@
     align-items: center;
 }
 .itemCard .itemContent{
-	padding: 0 50px;
+	padding: 0 20px;
 	text-align: center;
 	background-color: white;
 	height: 60%;
@@ -93,6 +92,6 @@
 
 @media only screen and (min-width: 600px){
 	.skills {
-		padding: 0 100px;
+		padding: 50px 100px;
 	}
 }

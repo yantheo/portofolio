@@ -9,8 +9,8 @@ const ProjectDisplay = (props) => {
 	const [singleProject, setSingleProjet] = useState({
 		project : null
 	})
-	//const hostname = "https://yanicktheodose.site/portfolio/";
-	const hostname = "http://localhost/portfolio/";
+	const hostname = "https://yanicktheodose.site/portfolio/";
+	//const hostname = "http://localhost/portfolio/";
 	useEffect(() => {
 		axios.get(`${hostname}api/project/${id}`)
 		.then((response) =>{ setSingleProjet({project:response.data}) })

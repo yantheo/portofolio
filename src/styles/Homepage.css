@@ -27,6 +27,11 @@ hr {
 	position: relative;
 }
 
+.navbar a.logo-homelink{
+	margin: 0;
+	display: block;
+}
+
 .logo{
 	height: 75px;
     top: 0;

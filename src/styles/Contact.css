@@ -1,13 +1,12 @@
 .contact{
 	min-height: calc(100vh - 75px - 140px);
-	background-color: #3e497a;
+	background-color: black;
 	position: relative;
   text-align: center;
 }
 #contact-form{
 	position: relative;
   margin-top: 40px;
-  padding-bottom: 20px;
 }
 .contact h1{
 	margin: 0;
@@ -124,6 +123,6 @@ textarea.form-control {
 
 @media only screen and (min-width: 600px){
 	.contact {
-		padding: 0 100px;
+		padding: 50px 100px;
 	}
 }

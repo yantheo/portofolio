@@ -10,27 +10,30 @@ const Navbar = (props) => {
 	useEffect(() => {
 		setExpendNavbar(false);
 	}, [location])
-	return(
-		//ecrire code ici
-		<div className='navbar' id={expendNavbar ? "open" : "close"}>
-			<div className='logo'>
-				<div className='imgLogo'>
-				</div>
-			</div>
-			<div className='toggleButton'>
-				<button onClick={() => {setExpendNavbar((prev) => !prev)}}>
-					<ReorderIcon/>
-				</button>
-			</div>
-			<div className='links'>
-				<Link to="/">Home</Link>
-				<Link to="/skills">Services</Link>
-				<Link to="/experiences">Experience</Link>
-				<Link to="/projects">Projects</Link>
-				<Link to="/contact">Contact</Link>
-			</div>
-		</div>
-	);
+	return (
+    //ecrire code ici
+    <div className="navbar" id={expendNavbar ? "open" : "close"}>
+      <Link to="/" className="logo-homelink">
+        <div className="logo">
+          <div className="imgLogo"></div>
+        </div>
+      </Link>
+      <div className="toggleButton">
+        <button
+          onClick={() => {
+            setExpendNavbar((prev) => !prev);
+          }}
+        >
+          <ReorderIcon />
+        </button>
+      </div>
+      <div className="links">
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
+    </div>
+  );
 }
 
 export default Navbar;

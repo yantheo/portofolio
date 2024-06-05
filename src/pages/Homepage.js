@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Homepage.css";
 import { Link } from "react-router-dom";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 const Homepage = (props) => (
   //ecrire code ici
@@ -29,12 +30,9 @@ const Homepage = (props) => (
           </div>
           <div className="imgProfil"></div>
         </div>
-        <div>
-          <hr />
-        </div>
       </div>
-
-      <Projects />
+			<Projects />
+			<Skills/>
     </div>
   </>
 );
