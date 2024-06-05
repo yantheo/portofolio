@@ -79,11 +79,11 @@
 @media only screen and (max-width: 600px){
 	.skills {
 		height: 100%;
-		padding: 20px;
+		padding: 50px 35px;
 		text-align: center;
 	}
 	.skills h1{
-		font-size: 50px;
+		font-size: 35px;
 	}
 	.contentItem {
 		margin-top: 25px;

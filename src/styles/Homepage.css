@@ -29,7 +29,7 @@ hr {
 
 .navbar a.logo-homelink{
 	margin: 0;
-	display: block;
+	display: block !important;
 }
 
 .logo{
