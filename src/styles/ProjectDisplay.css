@@ -1,10 +1,11 @@
 .projectDisplay{
 	min-height: calc(100vh - 75px - 140px);
 	position: relative;
+	padding: 50px 0px;
 }
 .projectPage{
 	min-height: calc(100vh - 75px - 140px);
-	background-color: #3e497a;
+	background-color: black;
 	position: relative;
 	width: 100%;
 }
@@ -31,11 +32,12 @@
 
 .projectCard{
 	width: 70%;
-    display: flex;
-    position: relative;
-    background: white;
-    margin: 80px auto 0;
+	display: flex;
+	position: relative;
+	background: white;
+	margin: auto;
 	border-radius: 10px;
+	margin-top: 30px;
 }
 
 .projectbg {
@@ -80,20 +82,20 @@
 }
 
 a.projectLinkUrl {
-    background: #21325e;
-    color: #e9d35b;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 30px;
-    text-transform: uppercase;
+		background: black;
+		color: #e9d35b;
+		text-decoration: none;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		font-size: 18px;
+		margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px){
 	.projectDisplay h1{
-		font-size: 50px;
+		font-size: 35px;
+		padding: 40px 0px;
 	}
 	.projectbg {
 		width: 100%;
@@ -104,6 +106,5 @@ a.projectLinkUrl {
 	.projectCard{
 		width: 100%;
 		border-radius: 0;
-		margin-top: 25px;
 	}
 }
